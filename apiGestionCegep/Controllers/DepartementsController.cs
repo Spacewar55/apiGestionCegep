@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace apiGestionCegep.Controllers
 {
     [ApiController]
-    public class DepartementController : Controller
+    public class DepartementsController : Controller
     {
         [Route("Departement/ObtenirListeDepartement")]
         [HttpGet]
